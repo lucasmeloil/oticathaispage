@@ -9,9 +9,6 @@
 
 Desenvolvimento do website - Ótica São Pauo. Durante a elaboração foram colocados em prática conceitos de CSS flexbox, routes, @medias entre outros fundamentos.
 
-## Funcionalidades
-
-- É possível escolher do lado direito entre as opções pedra, papel ou tesoura, em contrapartida a aplicação também ira gerar uma dessas opções através do Math(). O jogador pode dessa maneira, ganhar, perder ou empatar.
 ## Acesso ao Projeto
 
 Acesso ao projeto pelo [Netlify](https://oticasaopaulo.netlify.app/).
