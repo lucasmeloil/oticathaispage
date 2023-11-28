@@ -2,7 +2,7 @@
 /* Lentes de Contato */
 
 document.querySelector('.btn-contact-lenses').addEventListener('click',function() {
-    window.location = "http://127.0.0.1:5500/article.html#id=contact-lenses";
+    window.location = "https://oticasaopaulo.netlify.app/article.html#id=contact-lenses";
     document.querySelector('.active').classList.remove('active');
     document.querySelector('.contact-lenses').classList.add('active');
 });
@@ -42,11 +42,11 @@ var liContactLenses = document.querySelector('.li-contact-lenses');
 var liVisionExam = document.querySelector('.li-vision-exam');
 
 liGlass.addEventListener('click',()=> {
-    window.location = "http://127.0.0.1:5500/article.html";
+    window.location = "https://oticasaopaulo.netlify.app/article.html";
 })
 
 liContactLenses.addEventListener('click',()=> {
-    window.location = "http://127.0.0.1:5500/article.html#id=contact-lenses";
+    window.location = "https://oticasaopaulo.netlify.app/article.html#id=contact-lenses";
     document.querySelector('.active').classList.remove('active');
     document.querySelector('.contact-lenses').classList.add('active');
 })
@@ -127,4 +127,4 @@ window.addEventListener('load',setImage,false);
 
 btnViewMore = document.querySelector('.view-more');
 
-btnViewMore.addEventListener('click',()=>{ window.location =  "http://127.0.0.1:5500/article.html"});
+btnViewMore.addEventListener('click',()=>{ window.location =  "https://oticasaopaulo.netlify.app/article.html"});

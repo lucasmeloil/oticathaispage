@@ -9,7 +9,7 @@ if (hash.length > 0) {
 }
 
 document.querySelector('.btn-contact-lenses').addEventListener('click',function() {
-    window.location = "http://127.0.0.1:5500/article.html#id=contact-lenses";
+    window.location = "https://oticasaopaulo.netlify.app/article.html#id=contact-lenses";
     document.querySelector('.active').classList.remove('active');
     document.querySelector('.contact-lenses').classList.add('active');
 });
@@ -17,7 +17,7 @@ document.querySelector('.btn-contact-lenses').addEventListener('click',function(
 /* Exame de visão */
 
 document.querySelector('.btn-vision-exam').addEventListener('click', () => {
-    window.location = "http://127.0.0.1:5500/#id=vision-exam";
+    window.location = "https://oticasaopaulo.netlify.app/#id=vision-exam";
 });
 
 /* Menu Mobile */
@@ -39,17 +39,17 @@ var liContactLenses = document.querySelector('.li-contact-lenses');
 var liVisionExam = document.querySelector('.li-vision-exam');
 
 liGlass.addEventListener('click',()=> {
-    window.location = "http://127.0.0.1:5500/article.html";
+    window.location = "https://oticasaopaulo.netlify.app/article.html";
 });
 
 liContactLenses.addEventListener('click',()=> {
-    window.location = "http://127.0.0.1:5500/article.html#id=contact-lenses";
+    window.location = "https://oticasaopaulo.netlify.app/article.html#id=contact-lenses";
     document.querySelector('.active').classList.remove('active');
     document.querySelector('.contact-lenses').classList.add('active');
 });
 
 liVisionExam.addEventListener('click',()=> {
-    window.location = "http://127.0.0.1:5500/#id=vision-exam";
+    window.location = "https://oticasaopaulo.netlify.app/#id=vision-exam";
 });
 
 /* Código para o filtro de preço */
