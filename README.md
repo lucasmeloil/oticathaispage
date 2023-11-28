@@ -7,7 +7,7 @@
 
 ## Descrição do projeto
 
-Desenvolvimento do website - Ótica São Pauo. Durante a elaboração foram colocados em prática conceitos de CSS flexbox, routes, @medias entre outros fundamentos.
+Desenvolvimento do website - Ótica São Paulo. Durante a elaboração foram colocados em prática conceitos de CSS flexbox, routes, @medias entre outros fundamentos.
 
 ## Acesso ao Projeto
 
